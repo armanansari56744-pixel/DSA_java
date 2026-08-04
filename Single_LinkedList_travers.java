@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Single_LinkedList {
+public class Single_LinkedList_travers {
     static class Node {
         int data;
         Node next;
@@ -46,7 +46,7 @@ public class Single_LinkedList {
     }
 
     public static void main(String[] args) {
-        Single_LinkedList ll = new Single_LinkedList();
+        Single_LinkedList_travers ll = new Single_LinkedList_travers();
         ll.insert();
         ll.display();
     }
@@ -87,7 +87,8 @@ public class Single_LinkedList {
     //     }
     // }
     // public static void main(String[] args) {
-    //    Single_LinkedList ll = new Single_LinkedList();
+    //    Single_LinkedList_travers ll = new Single_LinkedList_travers();
+
     //     ll.insert(10);
     //     ll.insert(20);
     //     ll.insert(30);
