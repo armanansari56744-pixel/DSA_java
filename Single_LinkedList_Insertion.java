@@ -14,7 +14,7 @@ public class Single_LinkedList_Insertion {
     Node head = null;
 
     public void insert() {
-        int n, m, x;
+        int n, choice, x;
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println("Enter data: ");
@@ -24,11 +24,13 @@ public class Single_LinkedList_Insertion {
             if (head == null) {
                 head = new_node;
             } else {
-                System.out.println(
-                        "press 1 to insert data at beginning of List: , press 2 to insert data at end of List: , press 3 to insert data at anywhere in List:");
-                m = sc.nextInt();
+               System.out.println("====Insertion====");
+               System.out.println("1. insert at beginnig: ");
+               System.out.println("2. Insert at end: ");
+               System.out.println("3. Insert at  specific position: ");
+                 choice= sc.nextInt();
 
-                switch (m) {
+                switch (choice) {
                     case 1:
                         new_node.next = head;
                         head = new_node;
