@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//          take input from user
+
 public class Single_Linkedlist_Delete {
     static class Node {
         int data;
@@ -130,4 +132,82 @@ public class Single_Linkedlist_Delete {
         slld.delete();
         slld.display();
     }
+
+
+
+
+    // static class Node {
+    //     int data;
+    //     Node next;
+
+    //     Node(int data) {
+    //         this.data = data;
+    //         this.next = null;
+    //     }
+    // }
+
+    // Node head = null;
+
+    // public void insert(int data) {
+    //     Node new_node = new Node(data);
+
+    //     if (head == null) {
+    //         head = new_node;
+    //     } else {
+    //         new_node.next = head;
+    //         head = new_node;
+    //     }
+    // }
+
+    // public void delete(int data) {
+    //     if (head == null) {
+    //         System.out.println("List is Empty: ");
+    //         return;
+    //     }
+    //     if (head.data == data) {
+    //         head = head.next;
+    //         System.out.println("delete successfully: ");
+    //         return;
+    //     }
+    //     Node temp = head;
+    //     while (temp != null) {
+    //         if (temp.next.data == data) {
+    //             temp.next = temp.next.next;
+    //             System.out.println("delete successfully: ");
+    //             return;
+    //         }
+    //         temp = temp.next;
+    //     }
+    // }
+
+    // public void display() {
+    //     Node temp = head;
+
+    //     if (head == null) {
+    //         System.out.println("List is Empty: ");
+    //     } else {
+    //         while (temp != null) {
+    //             System.out.print(temp.data + " -> ");
+    //             temp = temp.next;
+    //         }
+    //         System.out.println("null");
+    //     }
+    // }
+
+    // public static void main(String[] args) {
+    //     Single_Linkedlist_Delete slld = new Single_Linkedlist_Delete();
+
+    //     slld.insert(10);
+    //     slld.insert(20);
+    //     slld.insert(30);
+    //     slld.insert(40);
+    //     slld.insert(50);
+    //     slld.insert(60);
+    //     slld.insert(70);
+    //     slld.display();
+
+    //     slld.delete(60);
+    //     slld.display();
+    // }
+
 }
