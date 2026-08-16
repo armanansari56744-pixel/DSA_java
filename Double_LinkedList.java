@@ -104,7 +104,7 @@ public class Double_LinkedList {
     // }
 
     // public static void main(String[] args) {
-    // Double_LinkedList_insertion dll = new Double_LinkedList_insertion();
+    // Double_LinkedList dll = new Double_LinkedList();
 
     // dll.insert(10);
     // dll.insert(20);
