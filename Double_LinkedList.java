@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Double_LinkedList_insertion {
+public class Double_LinkedList {
     static class Node {
         int data;
         Node next;
@@ -53,7 +53,7 @@ public class Double_LinkedList_insertion {
     }
 
     public static void main(String[] args) {
-        Double_LinkedList_insertion dll = new Double_LinkedList_insertion();
+        Double_LinkedList dll = new Double_LinkedList();
 
         dll.insert();
         dll.display();
