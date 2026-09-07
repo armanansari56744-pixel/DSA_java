@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Stack_user_define {
-    int top =-1;
+    int top = -1;
     int n = 10;
     int arr[] = new int[n];
     Scanner sc = new Scanner(System.in);
